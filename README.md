@@ -38,5 +38,11 @@ $ cat gettysburg.txt | php texter.php
 
 ```
 
+Credits
+=======
 
+All credit here goes to WP Engine's amazing dev team. They've taught me a lot and they ask me to test out some of their new code problems for potential candidates. Hooray!
 
+All code in this repo is my own. Completion took roughly 1h45m (not including the readme)
+
+<excuse>...but I was blindfolded and had both hands behind my back... and was slightly distracted for some of it.</excuse>
