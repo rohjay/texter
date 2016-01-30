@@ -45,4 +45,4 @@ All credit here goes to WP Engine's amazing dev team. They've taught me a lot an
 
 All code in this repo is my own. Completion took roughly 1h45m (not including the readme)
 
-<excuse>...but I was blindfolded and had both hands behind my back... and was slightly distracted for some of it.</excuse>
+&lt;excuse&gt;...but I was blindfolded and had both hands behind my back... and was slightly distracted for some of it.&lt;/excuse&gt;
