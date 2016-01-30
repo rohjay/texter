@@ -44,7 +44,7 @@ Tests
 To run the tests, ensure that you have phpunit installed and run it on the textertests.php file like this:
 
 ```
-$ phpunit textertests.php 
+$ phpunit tests.texter.php 
 PHPUnit 3.7.28 by Sebastian Bergmann.
 
 ...........
