@@ -38,6 +38,23 @@ $ cat gettysburg.txt | php texter.php
 
 ```
 
+Tests
+=====
+
+To run the tests, ensure that you have phpunit installed and run it on the textertests.php file like this:
+
+```
+$ phpunit textertests.php 
+PHPUnit 3.7.28 by Sebastian Bergmann.
+
+...........
+
+Time: 50 ms, Memory: 2.50Mb
+
+OK (11 tests, 11 assertions)
+```
+
+
 Credits
 =======
 
