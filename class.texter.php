@@ -2,23 +2,22 @@
 
 class Texter
 {
-    public $results;
-
     public function analyze_text($text)
     {
-        $this->results['words'] = $this->split($text);
-        $this->results['count'] = $this->count($this->results['words']);
-        $this->results['tally'] = $this->tally($this->results['words']);
-        $this->results['unique_words'] = $this->count($this->results['tally']);
-        $this->results['top'] = $this->top($this->results['tally'],5);
-        return $this->results;
+        $results = array();
+        $results['words'] = $this->split($text);
+        $results['count'] = $this->count($results['words']);
+        $results['tally'] = $this->tally($results['words']);
+        $results['unique_words'] = $this->count($results['tally']);
+        $results['top'] = $this->top($results['tally'],5);
+        return $results;
     }
 
     public function split($text)
     {
         $lowered = strtolower($text);
 
-        // remove all punctuation and new lines (except for single quotes for the moment)
+        // remove all punctuation (except for single quotes for the moment)
         $no_punctuation = preg_replace('/[^0-9a-z\'\s]+/', '', $lowered);
 
         // Replace the new lines with spaces
